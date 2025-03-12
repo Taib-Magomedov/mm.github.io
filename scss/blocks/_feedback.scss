@@ -1,0 +1,43 @@
+.feedback {
+    padding: 180px 0;
+    position: relative;
+    background: linear-gradient(180deg,
+            $dark 10.42%,
+            rgba(36, 43, 51, 0) 55.52%,
+            $dark 90.1%,
+        ),
+        linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)),
+        url('./../../img/angar.png'), #c4c4c4;
+        &::after {
+                content: "6";
+                position: absolute;
+                top: 0;
+                left: calc(50% + 535px);
+                transform: translate(-50%, -50%);
+                line-height: 1.15;
+                opacity: 0.02;
+                font-size: 400px;
+                font-family: $font-accent;
+            }
+    @include mediaTablet {
+        padding-bottom: 90px;
+    }
+}
+
+.feedback__title {
+    margin-bottom: 38px;
+    @include mediaTablet {
+        margin-bottom: 19px;
+    }
+}
+
+.feedback__form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+
+    @include mediaTablet {
+        grid-template-columns: 1fr;
+    }
+}
