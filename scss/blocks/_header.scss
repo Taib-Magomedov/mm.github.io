@@ -9,10 +9,13 @@
   min-height: 840px;
 
   background: linear-gradient(180deg,
-      #242b33 11.98%,
-      rgba(45, 52, 60, 0.50) 51.04%,
-      #242b33 95.19%),
-    url("./../../img/header/fff.png");
+      $dark 10.42%,
+      rgba(36, 43, 51, 0) 55.52%,
+      $dark 90.1%,
+    ),
+    linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.1)),
+    url("./../img/header/fff.png"),
+    #c4c4c4;
 
   @include mediaTablet {
     min-height: unset;
