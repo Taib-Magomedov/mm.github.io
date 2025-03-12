@@ -179,7 +179,7 @@ a:hover {
   padding-top: 30px;
   padding-bottom: 74px;
   min-height: 840px;
-  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.5) 51.04%, #242b33 95.19%), url("./../../img/header/fff.png");
+  background: linear-gradient(180deg, #242b33 11.98%, rgba(45, 52, 60, 0.5) 51.04%, #242b33 95.19%), url("./../img/header/fff.png");
 }
 @media screen and (max-width: 959px) {
   .header {
@@ -479,7 +479,7 @@ a:hover {
 .cta {
   position: relative;
   padding: 180px 0;
-  background: linear-gradient(180deg, #242833 10.42%, rgba(36, 43, 51, 0) 55.52%, #242833 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url("./../../img/scladi.png"), #c4c4c4;
+  background: linear-gradient(180deg, #242833 10.42%, rgba(36, 43, 51, 0) 55.52%, #242833 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url("./../img/scladi.png"), #c4c4c4;
 }
 .cta::after {
   content: "4";
@@ -614,7 +614,7 @@ a:hover {
 .feedback {
   padding: 180px 0;
   position: relative;
-  background: linear-gradient(180deg, #242833 10.42%, rgba(36, 43, 51, 0) 55.52%, #242833 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url("./../../img/angar.png"), #c4c4c4;
+  background: linear-gradient(180deg, #242833 10.42%, rgba(36, 43, 51, 0) 55.52%, #242833 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8)), url("./../img/angar.png"), #c4c4c4;
 }
 .feedback::after {
   content: "6";
