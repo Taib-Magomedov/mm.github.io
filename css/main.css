@@ -310,7 +310,7 @@ a:hover {
   background-image: url("./../img/location.png");
 }
 .info--tel::before {
-  background-image: url("./.././../img/telephone.png");
+  background-image: url("./../img/telephone.png");
 }
 @media screen and (max-width: 959px) {
   .info {
